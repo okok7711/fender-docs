@@ -4,7 +4,7 @@ title: onNull
 parent: Flow
 ---
 
-#### `T onNull(incoming_val: T, func: Function<T>)`
+# `T onNull(incoming_val: T, func: Function<T>)`
 If the `incoming_val` is `Null` executes `func(incoming_val)`. Otherwise, returns `incoming_val` unchanged.
 
 ##### Parameters

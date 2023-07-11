@@ -4,7 +4,7 @@ title: readLine
 parent: IO
 ---
 
-#### `String readLine()`
+# `String readLine()`
 Read a line from `stdin`. Function waits for user input and returns input line as String.
 
 ##### Return Value

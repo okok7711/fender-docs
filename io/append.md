@@ -4,7 +4,7 @@ title: append
 parent: IO
 ---
 
-#### `Bool append(data: T, file_name: String)`
+# `Bool append(data: T, file_name: String)`
 Appends to the file at `file_name` with stringified `data`.
 
 ##### Parameters

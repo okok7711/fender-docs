@@ -4,7 +4,7 @@ title: shuffle
 parent: Value Operations
 ---
 
-#### `List shuffle(list: List)`
+# `List shuffle(list: List)`
 Shuffles the members of a `List` object in place also returning it for chaining
 
 ##### Parameters

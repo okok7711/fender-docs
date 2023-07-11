@@ -4,7 +4,8 @@ title: list
 parent: Cast Functions
 ---
 
-#### `List<T> list(value: R)`
+# `List<T> list(value: R)`
+
 Same as `int()` only with List return type.
 
 ##### Parameters

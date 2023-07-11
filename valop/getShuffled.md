@@ -4,7 +4,7 @@ title: getShuffled
 parent: Value Operations
 ---
 
-#### `List getShuffled(list: List)`
+# `List getShuffled(list: List)`
 Creates and returns a copy of the given list shuffled without modifying the original list
 
 ##### Parameters

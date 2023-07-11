@@ -4,7 +4,7 @@ title: int
 parent: Cast Functions
 ---
 
-#### `Integer int(item: T)`
+# `Integer int(item: T)`
 Cast a Value to an Integer.
 
 ##### Parameters

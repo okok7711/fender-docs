@@ -7,12 +7,12 @@ permalink: docs/cast
 ---
 
 
-### [`T raw(item: T)`](./raw.md)
-### [`Integer int(item: T)`](./int.md)
-### [`Float float(item: T)`](./float.md)
-### [`String str(item: T)`](./str.md)
-### [`Bool bool(item: T)`](./bool.md)
-### [`Ref<T> ref (value: T)`](./ref.md)
-### [`List<T> list(value: R)`](./list.md)
-### [`String joinStr(value: T)`](./joinStr.md)
+### [`T raw(item: T)`](../cast/raw)
+### [`Integer int(item: T)`](../cast/int)
+### [`Float float(item: T)`](../cast/float)
+### [`String str(item: T)`](../cast/str)
+### [`Bool bool(item: T)`](../cast/bool)
+### [`Ref<T> ref (value: T)`](../cast/ref)
+### [`List<T> list(value: R)`](../cast/list)
+### [`String joinStr(value: T)`](../cast/joinStr)
 

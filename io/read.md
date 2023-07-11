@@ -4,7 +4,7 @@ title: read
 parent: IO
 ---
 
-#### `String read(file_name: String)`
+# `String read(file_name: String)`
 Read the contents of a file specified by the given file path into a string.
 
 ##### Parameters

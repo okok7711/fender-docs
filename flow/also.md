@@ -4,7 +4,7 @@ title: also
 parent: Flow
 ---
 
-#### `T also(incoming_val: T, func: Function<T>)`
+# `T also(incoming_val: T, func: Function<T>)`
 Runs `func(incoming_val)` and returns the original `incoming_val` without modification
 
 ##### Parameters

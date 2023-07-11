@@ -4,7 +4,7 @@ title: apply
 parent: Flow
 ---
 
-#### `T apply(incoming_val: T, func: Function<T>)`
+# `T apply(incoming_val: T, func: Function<T>)`
 Runs `func(incoming_val)` and applies `func` to `incoming_val`.
 
 ##### Parameters

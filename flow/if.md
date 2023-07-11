@@ -4,7 +4,7 @@ title: if
 parent: Flow
 ---
 
-#### `<T|R> if(cond: Bool, if_true: T|Function<T>, if_false: R|Function<R>)`
+# `<T|R> if(cond: Bool, if_true: T|Function<T>, if_false: R|Function<R>)`
 If `cond` is true, will return `if_true` if it's a value, otherwise it will evaluate and return its return value, if `cond` is false, the same will happen for `if_false`
 
 ##### Parameters

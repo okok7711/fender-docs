@@ -4,7 +4,7 @@ title: then
 parent: Flow
 ---
 
-#### `Bool while(cond: Function, body: Function)`
+# `Bool while(cond: Function, body: Function)`
 Execute `body` while `cond` evaluates to `true`
 
 ##### Parameters

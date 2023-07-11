@@ -4,7 +4,7 @@ title: else
 parent: Flow
 ---
 
-#### `T else(cond: Bool, body: T|Function<T>)`
+# `T else(cond: Bool, body: T|Function<T>)`
 If `cond` is one of `null`, `Error` or `false`, it will evaluate and return `body`
 
 ##### Parameters

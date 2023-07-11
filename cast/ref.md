@@ -4,7 +4,7 @@ title: ref
 parent: Cast Functions
 ---
 
-#### `Ref<T> ref(value: T)`
+# `Ref<T> ref(value: T)`
 Wraps `value` in a `Ref`
 
 ##### Parameters

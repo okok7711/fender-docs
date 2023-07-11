@@ -4,7 +4,7 @@ title: len
 parent: Value Operations
 ---
 
-#### `Integer len(item: T)`
+# `Integer len(item: T)`
 Get the length of an iterable `item`.
 
 ##### Parameters

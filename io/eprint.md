@@ -4,7 +4,7 @@ title: eprint
 parent: IO
 ---
 
-#### `T eprint(item: T, *argv: List<T>)`
+# `T eprint(item: T, *argv: List<T>)`
 Same as `print`, only that it prints to `stderr`
 ```rust
 fndr_native_func!(

@@ -4,7 +4,7 @@ title: joinStr
 parent: Cast Functions
 ---
 
-#### `String joinStr(value: R)`
+# `String joinStr(value: R)`
 Attempts to join members of `value` to a String
 
 ##### Parameters

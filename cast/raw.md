@@ -4,7 +4,7 @@ title: raw
 parent: Cast Functions
 ---
 
-#### `T raw(item: T)`
+# `T raw(item: T)`
 Unwraps all references, returns a raw value of type `T`.
 
 ##### Parameters

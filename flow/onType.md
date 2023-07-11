@@ -4,7 +4,7 @@ title: onType
 parent: Flow
 ---
 
-#### `T onType(incoming_val: T, type_id: R, func: Function<T>)`
+# `T onType(incoming_val: T, type_id: R, func: Function<T>)`
 If the `incoming_val` is of type `type_id` executes and returns `func(incoming_val)`. Otherwise, returns `incoming_val` unchanged.
 
 ##### Parameters

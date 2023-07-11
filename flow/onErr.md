@@ -4,7 +4,7 @@ title: onErr
 parent: Flow
 ---
 
-#### `T onErr(incoming_val: T, func: Function<T>)`
+# `T onErr(incoming_val: T, func: Function<T>)`
 If the `incoming_val` is of type `Error` executes `func(incoming_val)`. Otherwise, returns `incoming_val` unchanged.
 
 ##### Parameters

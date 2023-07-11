@@ -4,7 +4,7 @@ title: float
 parent: Cast Functions
 ---
 
-#### `Float float(item: T)`
+# `Float float(item: T)`
 Same as `int()` only with Float return type.
 
 ##### Parameters

@@ -4,7 +4,7 @@ title: swap
 parent: Value Operations
 ---
 
-#### `List swap(variable: List, pos_a: Integer, pos_b: Integer)`
+# `List swap(variable: List, pos_a: Integer, pos_b: Integer)`
 Swaps to two values in a list specified by their positions.
 
 ##### Parameters

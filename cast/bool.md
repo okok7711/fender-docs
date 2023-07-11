@@ -4,7 +4,7 @@ title: bool
 parent: Cast Functions
 ---
 
-#### `Bool bool(item: T)`
+# `Bool bool(item: T)`
 Same as `int()` only with bool return type.
 
 ##### Parameters

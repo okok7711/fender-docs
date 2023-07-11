@@ -4,7 +4,7 @@ title: raw
 parent: Cast Functions
 ---
 
-#### `String str(item: T)`
+# `String str(item: T)`
 Same as `int()` only with String return type.
 
 ##### Parameters

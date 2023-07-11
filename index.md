@@ -17,10 +17,10 @@ permalink: /
 >  Also these docs are not nearly complete, you can make a PR if you want to help :)
 
 ## Functions
-### [I/O Functions](./io/index.md)
-### [Cast Functions](./cast/index.md)
-### [Control Flow](./flow/index.md)
-### [Value Operations](./valop/index.md)
+### [I/O Functions](docs/io)
+### [Cast Functions](docs/cast)
+### [Control Flow](docs/flow)
+### [Value Operations](docs/valop)
 ### System Functions
 ### Type Functions
 ### Data Functions

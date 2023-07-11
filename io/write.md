@@ -4,7 +4,7 @@ title: write
 parent: IO
 ---
 
-#### `Bool write(data: T, file_name: String)`
+# `Bool write(data: T, file_name: String)`
 Overwrites the file at `file_name` with stringified `data`
 
 ##### Parameters
