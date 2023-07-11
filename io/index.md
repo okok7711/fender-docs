@@ -8,11 +8,11 @@ permalink: docs/io
 
 ## Functions of I/O
 
-### [`T print(item: T, *argv: List<T>)`](./print.md)
-### [`T println(item: T, *argv: List<T>)`](./println.md)
-### [`T eprint(item: T, *argv: List<T>)`](./eprint.md)
-### [`T eprintln(item: T, *argv: List<T>)`](./eprintln.md)
-### [`String readLine()`](./readline.md)
-### [`String read(file_name: String)`](./read.md)
-### [`Bool write(data: T, file_name: String)`](./write.md)
-### [`Bool append(data: T, file_name: String)`](./append.md)
+### [`T print(item: T, *argv: List<T>)`](../io/print)
+### [`T println(item: T, *argv: List<T>)`](../io/println)
+### [`T eprint(item: T, *argv: List<T>)`](../io/eprint.md)
+### [`T eprintln(item: T, *argv: List<T>)`](../io/eprintln.md)
+### [`String readLine()`](../io/readline.md)
+### [`String read(file_name: String)`](../io/read.md)
+### [`Bool write(data: T, file_name: String)`](../io/write.md)
+### [`Bool append(data: T, file_name: String)`](../io/append.md)

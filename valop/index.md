@@ -8,7 +8,7 @@ permalink: docs/valop
 
 ## Value Operations
 
-### [`Integer len(item: T)`](./len.md)
-### [`List swap(variable: List, pos_a: Integer, pos_b: Integer)`](./while.md)
-### [`List shuffle(list: List)`](./shuffle.md)
-### [`List getShuffled(list: List)`](./getShuffled.md)
+### [`Integer len(item: T)`](../valop/len)
+### [`List swap(variable: List, pos_a: Integer, pos_b: Integer)`](../valop/while)
+### [`List shuffle(list: List)`](../valop/shuffle)
+### [`List getShuffled(list: List)`](../valop/getShuffled)
