@@ -7,9 +7,9 @@ permalink: docs/flow
 ---
 ## Control Flow Functions
 
-### [`<T|R> if(cond: Bool, if_true: T|Function<T>, if_false: R|Function<R>)`](../flow/if)
-### [`T else(cond: Bool, body: T|Function<T>)`](../flow/else)
-### [`<Null|Bool> then(cond: Bool, body: Function)`](../flow/then)
+### [`<T, R> if(cond: Bool, if_true: <T, Function<T>>, if_false: <R, Function<R>>)`](../flow/if)
+### [`T else(cond: Bool, body: <T, Function<T>>)`](../flow/else)
+### [`<Null, Bool> then(cond: Bool, body: Function)`](../flow/then)
 ### [`Bool while(cond: Function, body: Function)`](../flow/while)
 ### [`T also(incoming_val: T, func: Function<T>)`](../flow/also)
 ### [`T apply(incoming_val: T, func: Function<T>)`](../flow/apply)

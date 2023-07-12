@@ -4,7 +4,7 @@ title: println
 parent: IO
 ---
 
-# `T println(item: T, *argv: List<T>)`
+# `T println(item: T, *argv: List)`
 Same as `print`, only appending an empty line print.
 ```rust
 fndr_native_func!(

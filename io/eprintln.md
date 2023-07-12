@@ -4,7 +4,7 @@ title: eprintln
 parent: IO
 ---
 
-# `T eprintln(item: T, *argv: List<T>)`
+# `T eprintln(item: T, *argv: List)`
 Same as `println`, only that it prints to `stderr`
 ```rust
 fndr_native_func!(

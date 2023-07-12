@@ -4,7 +4,7 @@ title: then
 parent: Flow
 ---
 
-# `<Null|Bool> then(cond: Bool, body: Function)`
+# `<Null, Bool> then(cond: Bool, body: Function)`
 If `cond` is `true` body will be executed and `true` will be returned.
 
 ##### Parameters

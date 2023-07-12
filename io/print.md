@@ -4,7 +4,7 @@ title: print
 parent: IO
 ---
 
-# `T print(item: T, *argv: List<T>)`
+# `T print(item: T, *argv: List)`
 Prints text to `stdout`, prints `item` and then iterates over `argv`, printing each member sequentially. All of the `argv` members are stringified.
 
 ##### Parameters
