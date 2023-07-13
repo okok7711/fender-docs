@@ -7,19 +7,19 @@ parent: Flow
 # `<Null, Bool> then(cond: Bool, body: Function)`
 If `cond` is `true` body will be executed and `true` will be returned.
 
-##### Parameters
-`cond`: condition to determine if `body should be evaluated`
-`body`: Function to evaluate and return if `cond` is `true`
+### Parameters
+- `cond`: condition to determine if `body should be evaluated`
+- `body`: Function to evaluate and return if `cond` is `true`
 
-##### Return Value
+### Return Value
 Return `true` if `cond` is `true`, return `Null` or `Error` if `cond` is `Null` or `Error` respectively. Return `Null` if `cond` is false
 
-##### Usage
+### Usage
 ```r
 then(true, { "this will be run" }) # return true
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Conditional execution

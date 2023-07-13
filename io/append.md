@@ -7,19 +7,19 @@ parent: IO
 # `Bool append(data: T, file_name: String)`
 Appends to the file at `file_name` with stringified `data`.
 
-##### Parameters
-`data`: data to append to the file with, is stringified when writing
-`file_name`: represents the file path as a String from which to append the contents to
+### Parameters
+- `data`: data to append to the file with, is stringified when writing
+- `file_name`: represents the file path as a String from which to append the contents to
 
-##### Return Value
+### Return Value
 Either returns a `true` Boolean value when the execution was successful, or a Fender Error type if there was an error whilst writing the file with the content `"failed to append to file due to error: {e}"`. If there was an error opening the file, Fender Error with content `"failed to open file due to error: {e}"` is returned
 
-##### Usage
+### Usage
 ```r
 $success = append(" newer data", "test.txt") # return true
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Appends to file `file_name` with `data`

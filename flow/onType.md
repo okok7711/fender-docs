@@ -7,19 +7,19 @@ parent: Flow
 # `T onType(incoming_val: T, type_id: R, func: Function<T>)`
 If the `incoming_val` is of type `type_id` executes and returns `func(incoming_val)`. Otherwise, returns `incoming_val` unchanged.
 
-##### Parameters
-`incoming_val`: incoming value to check for type `type_id`, return value if not of type `type_id`
-`func`: Function to evaluate if `incoming_val` is of type `type_id`
+### Parameters
+- `incoming_val`: incoming value to check for type `type_id`, return value if not of type `type_id`
+- `func`: Function to evaluate if `incoming_val` is of type `type_id`
 
-##### Return Value
+### Return Value
 Returns either `incoming_val` if it is not of type `type_id`, or `func(incoming_val)` if it is.
 
-##### Usage
+### Usage
 ```r
 onType(7, Int, (x) { x + 1 }) # returns 8
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// If `incoming_val` is of type `type_id` run `func`

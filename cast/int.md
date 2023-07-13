@@ -7,18 +7,18 @@ parent: Cast Functions
 # `Integer int(item: T)`
 Cast a Value to an Integer.
 
-##### Parameters
-`item`: item to cast to an integer
+### Parameters
+- `item`: item to cast to an integer
 
-##### Return Value
+### Return Value
 Returns the item cast to an integer or a Fender Error with content `"Invalid int string: {item}"` if attempting to cast from an invalid string
 
-##### Usage
+### Usage
 ```r
 $out = int("7711") # return 7711
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Cast `FenderValue` to `FenderValue::Int`

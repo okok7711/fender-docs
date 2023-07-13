@@ -7,17 +7,17 @@ parent: Value Operations
 # `Float rand()`
 Get a random float in [0; 1]
 
-##### Parameters
+### Parameters
 
-##### Return Value
+### Return Value
 Random float between 0 and 1
 
-##### Usage
+### Usage
 ```r
 rand() # return random float between 0 and 1, e.g. 0.0764449462357808
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Get random float between 0 and 1

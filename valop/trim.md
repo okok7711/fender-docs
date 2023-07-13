@@ -4,27 +4,27 @@ title: trim
 parent: Value Operations
 ---
 
-# `String trim(string: String, ignore_list: Option<List<Char>>)`
+# `String trim(string: String, ignore_list: List<Char>?)`
 Trim leading and trailing characters that match `ignore_list` or `DEFAULT_TRIM_SET`.  
 `const DEFAULT_TRIM_SET: &[char] = &['\t', ' ', '\n', '\r']`  
 If `ignore_list` is not provided, `DEFAULT_TRIM_SET` will be used.  
 This modifies `string` and returns it.
 
-##### Parameters
-`string`: string to trim characters from.
-`ignore_list`: characters to trim, if not provided `['\t', ' ', '\n', '\r']` will be trimmed
+### Parameters
+- `string`: string to trim characters from.
+- `ignore_list`: characters to trim, if not provided `['\t', ' ', '\n', '\r']` will be trimmed
 
-##### Return Value
+### Return Value
 Returns the trimmed string.
 
-##### Usage
+### Usage
 ```r
 $test = "             i like spaces!       "
 trim(test) # return "i like spaces!"
 println(test) # output "i like spaces!", return "i like spaces!"
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Trim leading and trailing characters that match `ignore_list` or `DEFAULT_TRIM_SET`

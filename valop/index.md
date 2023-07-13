@@ -20,5 +20,5 @@ permalink: docs/valop
 ### [`List removePass(value: List, pos: Integer)`](../valop/removePass)
 ### [`<List, String> concat(a: <List, String>, b: <List, String>)`](../valop/concat)
 ### [`R insert(collection: <List, Map>, key: T, value: R)`](../valop/insert)
-### [`String trim(string: String, ignore_list: Option<List<Char>>)`](../valop/trim)
-### [`String trimmed(string: String, ignore_list: Option<List<Char>>)`](../valop/trimmed)
+### [`String trim(string: String, ignore_list: List<Char>?)`](../valop/trim)
+### [`String trimmed(string: String, ignore_list: List<Char>?)`](../valop/trimmed)

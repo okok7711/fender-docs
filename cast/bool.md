@@ -7,18 +7,18 @@ parent: Cast Functions
 # `Bool bool(item: T)`
 Same as `int()` only with bool return type.
 
-##### Parameters
-`item`: item to be cast to a bool
+### Parameters
+- `item`: item to be cast to a bool
 
-##### Return Value
+### Return Value
 Returns the item cast to a bool.
 
-##### Usage
+### Usage
 ```r
 $out = bool(0) # return false
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Cast `FenderValue` to `FenderValue::String`

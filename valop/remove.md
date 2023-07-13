@@ -8,21 +8,21 @@ parent: Value Operations
 Remove and return a value with a given position from `value`.
 If `pos` not in `[0; value.len()[` or `pos` is not of type `Integer`, an error will be returned.
 
-##### Parameters
-`value`: list to remove from
-`pos`: index of the item to be removed
+### Parameters
+- `value`: list to remove from
+- `pos`: index of the item to be removed
 
-##### Return Value
+### Return Value
 Returns the removed item from the list.
 
-##### Usage
+### Usage
 ```r
 $test = [1, 2, 3]
 remove(test, 0) # return 1
 println(test) # output [2, 3], return [2, 3]
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Removes an element from a list and returns it or error if there is no element at that location

@@ -21,6 +21,6 @@ permalink: /
 ### [Cast Functions](docs/cast)
 ### [Control Flow](docs/flow)
 ### [Value Operations](docs/valop)
-### System Functions
+### [System Functions](docs/system)
 ### Type Functions
 ### Data Functions

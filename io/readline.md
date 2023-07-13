@@ -7,15 +7,17 @@ parent: IO
 # `String readLine()`
 Read a line from `stdin`. Function waits for user input and returns input line as String.
 
-##### Return Value
+### Parameters
+
+### Return Value
 Either returns a String when the execution was successful, or a Fender Error type if there was an error whilst reading from `stdin`
 
-##### Usage
+### Usage
 ```r
 $input = readLine() # return user input
 ```
 
-##### Function Body
+### Function Body
 ```rust
 match std::io::stdin().lines().next() {
     Some(Ok(s)) => Ok(String(s.into()).into()),

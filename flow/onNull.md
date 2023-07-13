@@ -7,19 +7,19 @@ parent: Flow
 # `T onNull(incoming_val: T, func: Function<T>)`
 If the `incoming_val` is `Null` executes `func(incoming_val)`. Otherwise, returns `incoming_val` unchanged.
 
-##### Parameters
-`incoming_val`: incoming value to check for null, return value if not null
-`func`: Function to evaluate if `incoming_val` is null
+### Parameters
+- `incoming_val`: incoming value to check for null, return value if not null
+- `func`: Function to evaluate if `incoming_val` is null
 
-##### Return Value
+### Return Value
 Returns either `incoming_val` if it's not null, or `func(incoming_val)` if it is.
 
-##### Usage
+### Usage
 ```r
 onNull(null, { println("Is Null!") }) # returns "Is Null!"
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// If `incoming_val` is of type `FenderValue::Null` run `func`

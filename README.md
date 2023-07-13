@@ -14,7 +14,7 @@
 ### [Cast Functions](./cast/index.md)
 ### [Control Flow](./flow/index.md)
 ### [Value Operations](./valop/index.md)
-### System Functions
+### [System Functions](./system/index.md)
 ### Type Functions
 ### Data Functions
 

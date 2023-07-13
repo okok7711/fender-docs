@@ -7,18 +7,18 @@ parent: Cast Functions
 # `Float float(item: T)`
 Same as `int()` only with Float return type.
 
-##### Parameters
-`item`: item to be cast to a float
+### Parameters
+- `item`: item to be cast to a float
 
-##### Return Value
+### Return Value
 Returns the item cast to a float or a Fender Error with content `"Invalid float string: {item}"` if attempting to cast from an invalid string
 
-##### Usage
+### Usage
 ```r
 $out = float("77.11") # return 77.11
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Cast `FenderValue` to `FenderValue::Float`

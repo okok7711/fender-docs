@@ -7,20 +7,20 @@ parent: Flow
 # `Bool while(cond: Function, body: Function)`
 Execute `body` while `cond` evaluates to `true`
 
-##### Parameters
-`cond`: Function to determine what to return
-`body`: Function to run every iteration
+### Parameters
+- `cond`: Function to determine what to return
+- `body`: Function to run every iteration
 
-##### Return Value
+### Return Value
 Returns `true` after finishing execution
 
-##### Usage
+### Usage
 ```r
 $x = 0
 while({ x < 10 }, { x += 1 }) # return true
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Execute `body` while `cond` evaluates to true

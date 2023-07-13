@@ -7,19 +7,19 @@ parent: IO
 # `T print(item: T, *argv: List)`
 Prints text to `stdout`, prints `item` and then iterates over `argv`, printing each member sequentially. All of the `argv` members are stringified.
 
-##### Parameters
-`item`: Item to be printed to stdout.  Will be the return value.
-`argv`: argument vector of other values to print. 
+### Parameters
+- `item`: Item to be printed to stdout.  Will be the return value.
+- `argv`: argument vector of other values to print. 
 
-##### Return Value
+### Return Value
 Returns the `ìtem` parameter.
 
-##### Usage
+### Usage
 ```r
 print("test", 1, 2, 3) # return "test"
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Prints to stdout

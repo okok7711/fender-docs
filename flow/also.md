@@ -7,19 +7,19 @@ parent: Flow
 # `T also(incoming_val: T, func: Function<T>)`
 Runs `func(incoming_val)` and returns the original `incoming_val` without modification
 
-##### Parameters
-`incoming_val`: The argument to run `func` with and the return value of this function
-`func`: The function to execute on `incoming_val`
+### Parameters
+- `incoming_val`: The argument to run `func` with and the return value of this function
+- `func`: The function to execute on `incoming_val`
 
-##### Return Value
+### Return Value
 Returns `incoming_val`
 
-##### Usage
+### Usage
 ```r
 also(7, { 7 + 1 }) # return 7
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Runs a function on a given value, then passes the original value

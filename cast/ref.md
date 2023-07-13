@@ -7,18 +7,18 @@ parent: Cast Functions
 # `Ref<T> ref(value: T)`
 Wraps `value` in a `Ref`
 
-##### Parameters
-`item`: item to be wrapped in a `Ref`
+### Parameters
+- `item`: item to be wrapped in a `Ref`
 
-##### Return Value
+### Return Value
 Returns the item wrapped in a `Ref`.
 
-##### Usage
+### Usage
 ```r
 $out = ref(0) # return Ref(0)
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Wrap `value` in a `Ref`

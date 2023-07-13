@@ -15,18 +15,18 @@ $kloink = person(kloink, 19)
 dbg(kloink) # returns "Struct(person{name:\"kloink\", age:19})"
 ```
 
-##### Parameters
-`value`: Value to get the debug text of
+### Parameters
+- `value`: Value to get the debug text of
 
-##### Return Value
+### Return Value
 Returns the debug text as a `String`
 
-##### Usage
+### Usage
 ```r
 dbg("My Value") # return "String(\"My Value\")"
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Returns a `String` that contains the debug text of the given `value`

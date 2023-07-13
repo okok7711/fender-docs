@@ -7,14 +7,14 @@ parent: Value Operations
 # `<List, String> concat(a: <List, String>, b: <List, String>)`
 Concatenate `b` to `a`. Both `a` and `b` need to have the same type but can be either `List`s or `String`s. For `String`s you can also use the shorthand `+` operator for concatenation.
 
-##### Parameters
-`a`: `List` or `String` to concat `b` to
-`b`: `List` or `String` to concat to `a`
+### Parameters
+- `a`: `List` or `String` to concat `b` to
+- `b`: `List` or `String` to concat to `a`
 
-##### Return Value
+### Return Value
 Returns the concatenation of `a` and `b`
 
-##### Usage
+### Usage
 ```r
 $a = [1, 2, 3]
 $b = [4, 5, 6]
@@ -22,7 +22,7 @@ $b = [4, 5, 6]
 concat(a, b) # return [1, 2, 3, 4, 5, 6]
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Returns and String/List with the combined String/List

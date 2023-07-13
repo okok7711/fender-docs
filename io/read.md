@@ -7,18 +7,18 @@ parent: IO
 # `String read(file_name: String)`
 Read the contents of a file specified by the given file path into a string.
 
-##### Parameters
-`file_name`: represents the file path as a String from which to read the contents
+### Parameters
+- `file_name`: represents the file path as a String from which to read the contents
 
-##### Return Value
+### Return Value
 Either returns a String when the execution was successful, or a Fender Error type with the content `"failed to read file due to error: {e}"`  if there was an error whilst reading the file .
 
-##### Usage
+### Usage
 ```r
 $contents = read("test.txt") # return contents of test.txt
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// read in the contents of a file with given path

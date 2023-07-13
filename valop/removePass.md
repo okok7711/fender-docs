@@ -9,21 +9,21 @@ Remove a value with a given position from `value`.
 If `pos` not in `[0; value.len()[` or `pos` is not of type `Integer`, an error will be returned.
 Differs from [`T remove(value: List, pos: Integer)`](../valop/remove) by returning the resulting list instead of the removed item.
 
-##### Parameters
-`value`: list to remove from
-`pos`: index of the item to be removed
+### Parameters
+- `value`: list to remove from
+- `pos`: index of the item to be removed
 
-##### Return Value
+### Return Value
 Returns the list with the item removed
 
-##### Usage
+### Usage
 ```r
 $test = [1, 2, 3]
 removePass(test, 0) # return [2, 3]
 println(test) # output [2, 3], return [2, 3]
 ```
 
-##### Function Body
+### Function Body
 ```rust
 fndr_native_func!(
     /// Removes an element from a list and returns the list it was removed from
