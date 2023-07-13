@@ -15,7 +15,7 @@
 ### [Control Flow](./flow/index.md)
 ### [Value Operations](./valop/index.md)
 ### [System Functions](./system/index.md)
-### Type Functions
+### [Type Functions](./type/index.md)
 ### Data Functions
 
 Jekyll Site built using [Just the Docs](https://github.com/just-the-docs/just-the-docs)

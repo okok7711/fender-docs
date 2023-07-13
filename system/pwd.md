@@ -1,6 +1,6 @@
 ---
 layout: default
-title: shell
+title: pwd
 parent: System
 ---
 

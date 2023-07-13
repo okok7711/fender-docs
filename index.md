@@ -22,5 +22,5 @@ permalink: /
 ### [Control Flow](docs/flow)
 ### [Value Operations](docs/valop)
 ### [System Functions](docs/system)
-### Type Functions
+### [Type Functions](docs/type)
 ### Data Functions
